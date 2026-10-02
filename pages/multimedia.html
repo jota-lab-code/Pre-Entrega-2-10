@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Nuestro css externo va como ultimo link antes del title -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo"><a class="logo" href="../index.html">LOGO</a></div>
+
+      <p class="parrafo">Silvana Casavalle Musica</p>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+          <li><a href="./multimedia.html">Multimedia</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="inicio">
+        <h1 class="titulo-discos text-secondary">Multimedia</h1>
+        <h1 class="titulo-discos text-secondary">Imagenes</h1>
+
+        <div class="contenedor-tarjetas">
+          <article class="card text-dark">
+            <img
+              src="../img/sil chaya.jpg"
+              alt="Show en la Provincia de La Rioja"
+            />
+            <h3>Show en la Provincia de La Rioja</h3>
+          </article>
+
+          <article class="card text-dark">
+            <img
+              src="../img/olavarria 2023.jpg"
+              alt="Show en Olavarria Provincia de Buenos Aires"
+            />
+            <h3>Show en Olavarria Provincia de Buenos Aires</h3>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="titulo-discos text-secondary">Audio</h2>
+        <h3 class="titulo-discos text-secondary">
+          Tema: Juglares del sol / Disco: Vuelve 2022
+        </h3>
+        <audio controls>
+          <source
+            src="../multimedia/1 Silvana Casavalle - Juglares del Sol (Intro).mp3"
+            type="audio/mp3"
+          />
+          Tu navegador no soporta la reproduccion de audio
+        </audio>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2 class="titulo-discos text-secondary">Video</h2>
+
+        <video autoplay muted loop controls width="600" height="300">
+          <source
+            src="../multimedia/DESEMPATE OLAVARRIA COPLAS.mp4"
+            type="video/mp4"
+          />
+          Tu navegador no soporta la reproduccion de video
+        </video>
+
+        <hr />
+      </section>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9M5_INVedjE?si=lULJRARPbyZuk9zY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </main>
+    <footer>
+      <p>Sitio realizado por EL VUELO</p>
+      <nav>
+        <ul class="footer-list">
+          <li>
+            <img src="../img/logo whatsapp.png" alt="logo whatsapp" />
+            <img src="../img/logo instagram.png" alt="logo instagram" />
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
