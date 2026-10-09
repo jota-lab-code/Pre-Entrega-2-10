@@ -232,3 +232,17 @@ footer .footer-list {
   min-height: 10rem;
   resize: vertical;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                                MEDIA QUERIES                               */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 600px) {
+  header,
+  footer {
+    flex-direction: column;
+  }
+  .header-nav,
+  .div-logo {
+    margin: 0;
+  }
+}
